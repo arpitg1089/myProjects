@@ -7,8 +7,8 @@ describe('angular-tour-of-heroes App', function() {
     page = new AngularTourOfHeroesPage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display message saying new app', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('new app!');
   });
 });
